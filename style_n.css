@@ -1,0 +1,149 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    max-width: 1000px;
+    margin: 0% auto;
+
+}
+.global-p{
+    padding: 0% 60px;
+      
+}
+
+  /* nav start */
+ nav{
+    
+    display: flex;
+    /* padding-top: 20px; */
+    justify-content: space-between;
+    
+ }
+ #logoid{
+    color: rgb(226, 141, 43);
+ }
+ ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+   
+ }
+ul a{
+   text-decoration: none;
+   font-weight: bold;
+}
+ul a:hover{
+   color: blue;
+   background-color: greenyellow;
+}
+   /* nav end */
+
+  
+.banner-container{
+    display: flex;
+    margin-top:40px ;
+    justify-content: space-between;
+    align-items:center;
+    /* banner start */ 
+}
+.banner-tital{
+    width: 50%;
+}
+
+.banner-img img{
+    border-radius:20%; 
+} 
+
+#b-title{
+    color: blue;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+#des{
+    color:gray;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+.resume-button{
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(226, 208, 43);
+}
+.resume-button:hover{
+    background-color: rgb(43, 226, 43);
+}
+ 
+/* banner end */
+
+/* main start */
+.main-section
+{
+   background-color: rgba(0, 128, 0, 0.315); 
+   margin-top: 80px;
+}
+.recent-post-title-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+   
+}
+
+.recent-container{
+    padding: 50px 60px;
+}
+
+.post-container{
+    display: flex;
+    gap: 25px;
+
+}
+.post-one{
+    background-color: white;
+    padding: 25px;
+    border-radius:20px ;
+}
+.post-tow{
+    background-color: white;
+    padding: 25px;
+    border-radius:20px ;
+}
+.post-des{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.feature-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.f-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   gap: 20px;
+}
+
+/* footer  */
+.cont
+{
+    padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.icc{
+    padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
